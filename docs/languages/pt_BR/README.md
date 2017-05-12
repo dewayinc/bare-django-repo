@@ -6,14 +6,14 @@
 
 ```
 . <Seu aplicativo>
-+---- apache2/
-+---- backend/ <Seu projeto>
-+---- backend.git/
-|   +---- .git/ <Este projeto como um repositório bare>
-+---- logs/
-+---- redeploy.sh/
-+---- env/ <Ambiente virtual>
-+---- .env <Variáveis de ambiente do aplicativo>
+|-- apache2/
+|-- backend/ <Seu projeto>
+|-- backend.git/
+|   `-- .git/ <Este projeto como um repositório bare>
+|-- logs/
+|-- env/ <Ambiente virtual>
+|-- redeploy.sh
+`-- .env <Variáveis de ambiente do aplicativo>
 ```
 
 ## Como...
@@ -34,8 +34,8 @@
 servidor (como `virtualenv`);
 - Executa comandos personalizados depois de um _deploy_ com sucesso.
 
-[app_json]: https://github.com/dewayinc/bare-django-repo/blob/master/docs/languages/pt_BR/APP_JSON.md
-[new_app]: https://github.com/dewayinc/bare-django-repo/blob/master/docs/languages/pt_BR/NEW_APP.md
-[old_app]: https://github.com/dewayinc/bare-django-repo/blob/master/docs/languages/pt_BR/OLD_APP.md
-[deploy_with_git]: https://github.com/dewayinc/bare-django-repo/blob/master/docs/languages/pt_BR/DEPLOY_WITH_GIT.md
-[english_version]: https://github.com/dewayinc/bare-django-repo/blob/master/README.md
+[app_json]: https://github.com/jourdanrodrigues/bare-django-repo/blob/master/docs/languages/pt_BR/APP_JSON.md
+[new_app]: https://github.com/jourdanrodrigues/bare-django-repo/blob/master/docs/languages/pt_BR/NEW_APP.md
+[old_app]: https://github.com/jourdanrodrigues/bare-django-repo/blob/master/docs/languages/pt_BR/OLD_APP.md
+[deploy_with_git]: https://github.com/jourdanrodrigues/bare-django-repo/blob/master/docs/languages/pt_BR/DEPLOY_WITH_GIT.md
+[english_version]: https://github.com/jourdanrodrigues/bare-django-repo/blob/master/README.md
